@@ -18,7 +18,8 @@ const db = knex({
   connection: {
    // host : '127.0.0.1',
    //host: 'postgresql-round-32228',
-   host: process.env.DATABASE_URL,
+   //host: process.env.DATABASE_URL,
+   connectionString: process.env.DATABASE_URL,
    // port: 'port_number_of_database',
    // user : 'postgres',
     //password : 'test',
