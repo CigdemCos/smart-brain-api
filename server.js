@@ -32,8 +32,7 @@ app.use(cors())
 app.get('/', (req, res)=> {
 	//res.send('this is working');
 	//res.send(database.users);
-
-console.log("it is working!")
+//console.log("it is working!")
   res.send(db.users)
   
 })
